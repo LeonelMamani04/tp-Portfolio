@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@800&family=Roboto&display=swap');
+body {
+    width: 100%;
+    box-sizing: border-box;    
+}
+:root{
+    --verde:#18BC9C;
+    --azul:#2C3E50;
+}
+i{
+    color: white;
+    padding: 15px 0px;
+    font-size: 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.titulos{
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+}
+.parrafos{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+header{
+    background-color:var(--azul) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    width: 100%;
+}
+header nav.menuBurger{
+    display: none;
+}
+header div.titlefree{
+    font-size: 21px;
+    padding: 10px 10px 7px 10px;
+}
+header a{
+    display: block;
+    width: 65px;
+    padding: 0px;
+}
+header div.menu-link{
+    padding: 0px 0px 23px 9px;
+}
+header a div.menu{
+    color: white;
+    background-color: var(--verde);
+    display: flex;
+    justify-items: left;
+    width: 54px;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin: 2px 0px;
+    height: 15px;
+}
+header a div.menu i {
+    padding: 3px 0px 0px 2px;
+    font-size: 12px;
+}
+main{
+    width: 100%;
+    
+}
+main section.freelance{
+    display: flex;
+    background-color: var(--verde);
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+}
+main section.freelance img{
+    width: 260px;
+    height: 260px;
+    padding: 40px 20px;
+}
+main section.freelance p.titulos{
+    font-size: 45px;
+}
+main section.freelance div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:80px;
+    text-align: center;
+}
+main section.freelance p.parrafos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+    flex-direction: column;
+}
+main section.portfolio{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+}
+main section.portfolio div p.titulos{
+    color: var(--azul);
+    font-size: 39px;
+    padding-top: 75px;
+}
+main section.portfolio div i{
+  
+    color: var(--azul);
+}
+main section.portfolio div.images{
+    padding: 20px 0px 80px 0px;
+}
+main section.portfolio div.images img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:295px;
+    padding: 6px 0px;
+}
+main section.about{
+    display: flex;
+    background-color: var(--verde);
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 70px;
+}
+main section.about div p.titulos{
+    font-size: 39px;
+    padding-top: 75px;
+}
+main section.about div p.parrafos{
+    font-weight: bold;
+    padding: 10px 20px 20px 20px;
+}
+main section.about div.boton{
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+main section.about div.boton button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--verde);
+    border-radius: 5px;  
+    border: white;  
+    width: 240px;
+    height: 57px;
+    transition: 1s;
+}
+main section.about div.boton button:hover{
+    background-color: var(--azul);
+}
+main section.about div.boton button p.parrafos{
+    padding-top: 19px;
+    font-size: 20px;
+}
+main section.about div.boton button i{
+    font-size: 20px;
+}
+main section.contact{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+}
+main section.contact p.titulos{
+    color: var(--azul);
+    font-size: 29px;
+    padding-top: 75px;
+}
+main section.contact i{
+    color: var(--azul);
+}
+main section.contact input.parrafos{
+    margin-top:20px;
+    width: 220px;
+    padding: 5px;
+    color: var(--azul);
+    border: solid rgb(182, 182, 182);
+    border-radius: 5px;
+}
+main section.contact div.send{
+    display: inline;
+    width: 237px;
+    padding: 20px 0px;
+    color: var(--verde);
+}
+main section.contact div.send button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--verde);
+    border-radius: 3px;
+    border: white;
+    width: 70px;
+    height: 30px;
+    transition: 1s;    
+}
+main section.contact div.send button:hover{
+    background-color: var(--azul);
+}
+
+main section.contact div.send button.boton-send p.parrafos{
+    color: var(--azul);
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--azul);
+}
+footer div article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer div article.location p.parrafos{
+    font-weight: bold;
+}
+footer div article p.titulos{
+    padding: 50px 0px 20px 0px;
+}
+footer div article.around div.icons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+footer div article.around div.icons i{
+    padding: 12px ;
+    border:solid white;
+    border-width: 1px;
+    border-radius: 25px;
+    margin: 0px 5px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+footer div article.around div.icons i:hover{
+    background-color: var(--verde);
+}
+footer div article.about{
+    justify-content: space-around;
+    align-items: center;
+}
+footer div article.about p.parrafos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 10px 45px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+footer div article.about a{
+    color: var(--verde);
+    font-weight: bold;
+    padding: 10px;
+}
+footer span div{
+    background-color: #18222c;
+    padding: 15px;
+}
+@media (min-width:360px){
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+    header div.menu-link{
+        padding: 9px 5px;
+    }
+    main section.portfolio div.images{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    main section.contact input.parrafos{
+        width: 60%;
+    }
+    main section.contact div.send{
+        width: 63%;
+    }
+    footer div{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    footer div article{
+        width: 150px;
+        align-items: center;
+        height: 264px;
+    }
+    footer div article.around div.icons{
+        flex-wrap: wrap;
+        width: 152px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (min-width:760px){
+    header{
+        justify-content: space-around;
+    }
+    header a {
+        display: none;
+    }
+    header nav.menuBurger{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    header nav.menuBurger p{
+        padding: 14px 10px;
+    }
+    header nav.menuBurger a{
+        width: 10px;
+        height: 10px;
+    }
+    main section.about div.text{
+        flex-direction: row;
+        display: flex;
+    }
+    main section.about div.text p{
+        width: 286px;
+    }
+    main section.contact input,.parrafos{
+        width: 60%;
+    }
+    main section.contact div.send{
+        width: 60%;
+} 
+
+}
